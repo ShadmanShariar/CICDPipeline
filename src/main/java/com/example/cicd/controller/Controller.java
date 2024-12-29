@@ -17,4 +17,9 @@ public class Controller {
         return "Welcome to CI/CD Test";
     }
 
+    @GetMapping("/retest")
+    public String retestMessage(){
+        return "Welcome to CI/CD reTest";
+    }
+
 }
