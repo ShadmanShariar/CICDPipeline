@@ -21,5 +21,9 @@ public class Controller {
     public String retestMessage(){
         return "Welcome to CI/CD reTest";
     }
+    @GetMapping("/final")
+    public String getinfo(){
+        return "Final";
+    }
 
 }
