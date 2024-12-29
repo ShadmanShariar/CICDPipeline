@@ -11,4 +11,10 @@ public class Controller {
         return "Welcome to CI/CD";
     }
 
+
+    @GetMapping("/test")
+    public String testMessage(){
+        return "Welcome to CI/CD Test";
+    }
+
 }
